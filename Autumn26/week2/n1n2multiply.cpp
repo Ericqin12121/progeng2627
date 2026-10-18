@@ -1,0 +1,14 @@
+#include <iostream>
+#include <limits>
+
+int main(){
+    double n1,n2, product;
+    std::cout<<"Please enter your first number"<<std::endl;
+    std::cin>> n1;
+    std::cout<<"Please enter your second number"<<std::endl;
+    std::cin>>n2;
+    product= n1 * n2;
+    std::cout<<n1<<"*"<<n2<<"="<<product<<std::endl;
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cin.get();
+}

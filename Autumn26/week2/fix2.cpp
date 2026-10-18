@@ -23,7 +23,7 @@ int main(){
     // TODO: read the surname from the user
     // and store it in variable user_surname
 
-    // TODO: add a printing instruction 
+    // TODO: add a printing in struction 
     // that says hello followed by the
     // name and surname of the user
 }
